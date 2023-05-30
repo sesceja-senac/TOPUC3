@@ -21,6 +21,7 @@
   <!--<link href="custom.css" type="text/css" rel="stylesheet"> -->
   <!-- css necessario para o print -->
   <link href="css/fa/css/font-awesome.min.css" type="text/css" rel="stylesheet">
+  <link href="css/aos.css" type="text/css" rel="stylesheet">
   <link href="css/01.css" type="text/css" rel="stylesheet">
   <link href="css/print.css" type="text/css" rel="stylesheet">
 
@@ -105,7 +106,7 @@
         </figure>
         <p>Veja, na tabela a seguir, o índice de refração de alguns materiais e sua velocidade da luz no ar e no vácuo.
         </p>
-        <div class="table-responsive">
+        <div data-aos="zoom-in" class="table-responsive">
           <table class="senac">
             <tr>
               <th>Material</th>
@@ -158,7 +159,7 @@
           </table>
         </div>
         <figcaption>Tabela 1 – Índice de refração dos materiais <br>
-          Fonte: Óptica Oftálmica em Exercício. Manuel Carneiro (2015) </figcaption>
+          Fonte: Carneiro (2015) </figcaption>
 
         <p>Exemplo de uma lente orgânica CR39: </p>
         <img src="images/01/formula02.png" class="img-responsive center-block">
@@ -169,7 +170,7 @@
           confecção. Independentemente do material usado, quanto maior for o índice de refração, mais fina e leve ficará
           a lente e menos curvas terá. </p>
         <figure>
-          <img src="images/01/fig01.png" class="img-responsive center-block"
+          <img data-aos="zoom-in" src="images/01/fig01.png" class="img-responsive center-block"
             alt="Desenho de lentes -2,00 dioptrias até -8,00 dioptrias, cujas espessuras alteram conforme o aumento do índice de refração de 1,50 até 1,76. Para 1,50 são as lentes mais grossas e 1,76 mais finas.  ">
           <figcaption>Figura 1 - Representação de espessura de lente entre os materiais <br>
             Fonte: Lenscope (2019) </figcaption>
@@ -182,6 +183,8 @@
           outra base com índice de refração diferente. Conforme Machado (2010, p.115), “Depois de obtido o fator de
           conversão, basta multiplicá-lo pelas dioptrias e depois fazer a combinação das curvas que resultarão nas
           dioptrias desejadas”. </p>
+        <p class="acessivel">Fórmula em que o fator de conversão é igual ao índice de refração do molde menos um,
+          dividido pelo índice de refração do material, menos um. </p>
         <figure class="fig-flex">
           <img src="images/01/formula04.png" alt="">
           <figcaption>
@@ -258,8 +261,8 @@
           outra com o sinal negativo. </p>
 
         <h4>Regras para transposição</h4>
-        
-        <div class="infografico-1">
+
+        <div data-aos="zoom-in" class="infografico-1">
           <div class="info-1">
             <h4>Sinais iguais</h4>
             <p>Repete-se o sinal, somam-se os dois valores para o novo esférico, inverte-se o sinal do cilíndrico,
@@ -287,57 +290,59 @@
           <p>O novo esférico será o valor do cilíndrico acompanhado de seu sinal; inverte-se o sinal do cilíndrico,
             repete-se o seu valor e muda-se o eixo em 90°. </p>
         </div>
-        <div class="caixa-destaque icone-anotar">
+        <div data-aos="zoom-in" class="caixa-destaque icone-anotar">
           <p>Observação: quando o eixo se apresentar maior que 90°, devem ser subtraídos 90°. Quando o eixo se
             apresentar menor que 90°, devem ser somados 90°. Na prescrição dos eixos, são utilizados valores de 0° a
             180°.</p>
         </div>
         <p>Clique ou toque para visualizar os três exemplos a seguir.</p>
-        <div class="row no-print" aria-hidden="true">
-                <div class="col-lg-4 col-sm-12">
-                  <div class="flip-card">
-                    <div class="flip-card-inner">
-                      <div class="flip-card-front">
-                        <h4>1. Receita A</h4>
-                        <img src="images/01/receita01.png" class="img-responsive center-block">
-                      </div>
-                      <div class="flip-card-back">
-                        <p>Qual é a transposição? </p>
-                        <p>
-                          <b>Resultado</b>: -1,00 +2,00 eixo 180°<br>
-                          <b>Explicação</b>: para sinais diferentes, realiza-se a subtração, conservando o sinal do maior (-1,00), o sinal do cilíndrico ficará positivo mantendo o mesmo valor, e ao valor do eixo somam-se 90°.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
+        <div data-aos="zoom-in" class="row no-print" aria-hidden="true">
+          <div class="col-lg-4 col-sm-12">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <h4>1. Receita A</h4>
+                  <img src="images/01/receita01.png" class="img-responsive center-block">
                 </div>
-                <div class="col-lg-4 col-sm-12">
-                  <div class="flip-card">
-                    <div class="flip-card-inner">
-                      <div class="flip-card-front">
-                        <h4>1. Receita B</h4>
-                        <img src="images/01/receita02.png" class="img-responsive center-block">
-                      </div>
-                      <div class="flip-card-back">
-                        <img src="imgs/card_2_verso.png" class="img-responsive center-block">
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-4 col-sm-12">
-                  <div class="flip-card">
-                    <div class="flip-card-inner">
-                      <div class="flip-card-front">
-                        <h4>1. Receita C</h4>
-                        <img src="images/01/receita03.png" class="img-responsive center-block">
-                      </div>
-                      <div class="flip-card-back">
-                        <img src="imgs/card_3_verso.png" class="img-responsive center-block">
-                      </div>
-                    </div>
-                  </div>
+                <div class="flip-card-back">
+                  <p>Qual é a transposição? </p>
+                  <p>
+                    <b>Resultado</b>: -1,00 +2,00 eixo 180°<br>
+                    <b>Explicação</b>: para sinais diferentes, realiza-se a subtração, conservando o sinal do maior
+                    (-1,00), o sinal do cilíndrico ficará positivo mantendo o mesmo valor, e ao valor do eixo somam-se
+                    90°.
+                  </p>
                 </div>
               </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-12">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <h4>1. Receita B</h4>
+                  <img src="images/01/receita02.png" class="img-responsive center-block">
+                </div>
+                <div class="flip-card-back">
+                  <img src="imgs/card_2_verso.png" class="img-responsive center-block">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-12">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <h4>1. Receita C</h4>
+                  <img src="images/01/receita03.png" class="img-responsive center-block">
+                </div>
+                <div class="flip-card-back">
+                  <img src="imgs/card_3_verso.png" class="img-responsive center-block">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
       <div class="pagina">
@@ -346,6 +351,9 @@
           o bloco a ser surfaçado. A fórmula a seguir é a mais utilizada, ou seja, os resultados dessa fórmula são
           exatos somente para os casos em que o tamanho da armação seja igual à distância pupilar ou a altura de centro
           óptico esteja posicionada no centro geométrico do aro. </p>
+          <p class="acessivel">
+            Fórmula em que o diâmetro ideal do bloco é igual à ponte da armação, mais o diâmetro da armação medida na horizontal do aro, mais o diâmetro maior do aro da armação, menos a distância pupilar, mais dois.
+          </p>
         <figure class="fig-flex">
           <img src="images/01/formula08.png" alt="">
           <figcaption>
@@ -368,6 +376,9 @@
         <p>É a fórmula utilizada para identificar qual a base exata para a fabricação de lentes. Contudo, quando são
           utilizados blocos de lentes semiacabados, por vezes, não é possível fabricar a lente na base ideal, e sim o
           mais próximo dela. Sendo assim, veja a seguir a fórmula para encontrar a curva base ideal. </p>
+        <p class="acessivel">
+          Fórmula em que a curva externa é igual à dioptria esférica, mais doze, dividido por dois.
+        </p>
         <figure class="fig-flex">
           <img src="images/01/formula09.png" alt="">
           <figcaption>
@@ -393,7 +404,9 @@
         <p>Curva oposta, também chamada de curva interna, é a parte interna das lentes, apresentando-se, na maioria das
           vezes, de forma côncava negativa. Para a surfaçagem de lentes visão simples esféricas, será utilizada a
           seguinte fórmula para encontrar a curva oposta. </p>
-
+        <p class="acessivel">
+          Fórmula em que a curva interna da lente é igual à dioptria, menos, abre parênteses, curva-base, fecha parênteses.
+        </p>
         <figure class="fig-flex">
           <img src="images/01/formula12.png" alt="">
           <figcaption>
@@ -413,6 +426,9 @@
         <h4>Cálculo de curva oposta para lentes visão simples cilíndricas </h4>
         <p>Para a surfaçagem de lentes visão simples cilíndricas, será utilizada a seguinte fórmula para encontrar a
           curva oposta 2. </p>
+        <p class="acessivel">
+          Fórmula em que a curva interna cilíndrica dois é igual à curva interna da lente, mais o valor do cilíndrico. 
+        </p>
         <figure class="fig-flex">
           <img src="images/01/formula13.png" alt="">
           <figcaption>
@@ -442,7 +458,7 @@
         </ul>
         <p>A exata espessura mínima é de extrema importância, pois exerce uma alta influência sobre a força dióptrica.
           Para a espessura mínima de lentes positivas, utiliza-se os parâmetros apresentados na seguinte tabela. </p>
-        <div class="table-responsive">
+        <div data-aos="zoom-in" class="table-responsive">
           <table class="senac">
             <tr>
               <th>Dioptria (D)</th>
@@ -501,14 +517,14 @@
             <b>E</b> = espessura mínima
           </figcaption>
         </figure>
-        <div class="caixa-destaque icone-anotar">
+        <div data-aos="zoom-in" class="caixa-destaque icone-anotar">
           <p>Observação: para calcular a espessura máxima, sempre se usa o valor do maior esférico entre dioptria e
             transposição. </p>
         </div>
         <p>Veja um exemplo: </p>
         <p>Em <b>uma prescrição de -2,00 esférico</b>, com diâmetro de 70mm, qual é a espessura máxima? </p>
         <img src="images/01/formula15.png" class="img-responsive center-block">
-        <div class="caixa-destaque icone-anotar">
+        <div data-aos="zoom-in" class="caixa-destaque icone-anotar">
           <p>Observação: para obter o resultado exato, são utilizados dois números após a vírgula. </p>
         </div>
 
@@ -525,7 +541,7 @@
           centralizar, deverá ter espessuras diferentes em seus meridianos principais, porém iguais em suas
           extremidades. </p>
         <figure>
-          <img src="images/01/fig02.png" class="img-responsive center-block"
+          <img data-aos="zoom-in" src="images/01/fig02.png" class="img-responsive center-block"
             alt="Círculo representando uma lente centrada com linhas pontilhadas no eixo 90° e uma linha pontilhada no eixo 180°. Há um ponto no centro do círculo representando o centro óptico e o centro geométrico da lente.">
           <figcaption>Figura 2 – Lente centrada <br>
             Fonte: Senac EAD (2023) </figcaption>
@@ -542,11 +558,12 @@
           <li>Por meio da diferença de espessura entre as extremidades de suas bordas no processo de surfaçagem. </li>
         </ul>
         <p>Conforme Machado (2010, p. 132): </p>
-        <p class="citacao">A descentralização por diferença de espessura é feita quando determinado bloco existente no mercado não tem o
+        <p class="citacao">A descentralização por diferença de espessura é feita quando determinado bloco existente no
+          mercado não tem o
           diâmetro necessário para a montagem dentro das especificações técnicas (medidas), sendo esse bloco monofocal e
           esférico (não se descentralizam blocos asféricos e progressivos). </p>
         <figure>
-          <img src="images/01/fig03.png" class="img-responsive center-block"
+          <img data-aos="zoom-in" src="images/01/fig03.png" class="img-responsive center-block"
             alt="Círculo representando uma lente descentrada com linhas pontilhadas no eixo 90° e uma linha pontilhada no eixo 180°. Há um ponto representado como centro geométrico do bloco e um ponto representado como centro óptico, e duas setas que representam a descentração.">
           <figcaption>Figura 3 – Lente descentrada <br>
             Fonte: Senac EAD (2023) </figcaption>
@@ -587,14 +604,15 @@
           compreende, razoavelmente, os valores dos meridianos principais. </p>
         <p>Conforme Dias (2016): </p>
 
-        <p class="citacao">O chamado "cilindro cruzado” (de Jackson) é uma lente esf. -0,25 cil.+0,50, com curvas "flat”, que também
+        <p class="citacao">O chamado "cilindro cruzado” (de Jackson) é uma lente esf. -0,25 cil.+0,50, com curvas
+          "flat”, que também
           poderá ser lida como esf. +0,25 cil. -0,50. Esta lente é similar a uma lente da caixa de provas e tem os
           valores dióptricos nos meridianos principais marcados com pequenos traços. </p>
 
         <h4>Descruzando cilíndricos </h4>
         <p>É necessário descruzar os cilíndricos para obter a receita e dar continuidade aos cálculos de fabricação.
           Veja o passo a passo no infográfico a seguir. </p>
-        <div class="infografico-2">
+        <div data-aos="zoom-in" class="infografico-2">
           <img src="images/01/infografico2_01.png" alt="">
           <img src="images/01/infografico2_02.png" alt="">
           <img src="images/01/infografico2_03.png" alt="">
@@ -647,7 +665,7 @@
 
         <p>Clique ou toque para visualizar os exemplos.</p>
 
-        <div class="modal-container">
+        <div data-aos="zoom-in" class="modal-container">
           <!-- Button trigger modal -->
           <button type="button" class="modal-btn" data-toggle="modal" data-target="#modal-1">
             <h4>Aplicação das fórmulas em lentes visão simples centrada </h4>
@@ -692,7 +710,7 @@
                     <li>
                       <p>
                         Fator de conversão:<br>
-                        <img src="" alt="">
+                        <img src="images/01/formula22.png" class="img-responsive" alt="">
                       </p>
                     </li>
                     <li>
@@ -726,7 +744,8 @@
                     <li>
                       <p>
                         Espessura máxima: <br>
-                        E=6922. 3,181000+2,0=4,86mm
+                        E=6922. 3,18/1000+2,0=4,86mm
+                        !! Aqui faltou a formula
                       </p>
                     </li>
                   </ul>
@@ -761,7 +780,7 @@
                   <ul class="cor01">
                     <li>
                       <p>Fator de conversão:</p>
-                      <img src="images/01/formula21.png" alt="" class="img-responsive center-block">
+                      <img src="images/01/formula22.png" alt="" class="img-responsive">
                     </li>
                     <li>
                       <p>
@@ -794,18 +813,21 @@
                     <li>
                       <p>
                         Espessura máxima:
-                      <h4>!! 2 formulas aqui</h4>
+                        <img src="images/01/formula23.png" alt="" class="img-responsive">
+                        <br>
+                        <img src="images/01/formula24.png" alt="" class="img-responsive">
                       </p>
                     </li>
                     <li>
                       <p>
                         Descentração:
-                      <h4>!! 1 formula</h4>
+                        <img src="images/01/formula25.png" alt="" class="img-responsive">
                       </p>
+                      <p>DB=0,019x1,88x73x8x0,1= 2,08 mm<br>
+                        EO=1,6+2,08=3,68mm</p>
                     </li>
                   </ul>
-                  <p>DB=0,019x1,88x73x8x0,1= 2,08 mm<br>
-                    EO=1,6+2,08=3,68mm</p>
+
                   <p>Quando a lente é descentrada positiva, a <b>espessura oposta</b> (EO) será a espessura de borda
                     nasal. Nesse caso, 3,68mm será a <b>espessura oposta</b> e <b>espessura mínima</b> (e) será o valor
                     da espessura de borda temporal 1,6mm, enquanto a <b>espessura máxima</b> de 4,42mm encontra-se no
@@ -837,7 +859,9 @@
                     <li>
                       <p>
                         Fator de conversão:
-                      <h4>!! 2 formulas</h4>
+                        <img src="images/01/formula26.png" alt="" class="img-responsive">
+                        <br>
+                        <img src="images/01/formula27.png" alt="" class="img-responsive">
                       </p>
                     </li>
                     <li>
@@ -865,20 +889,23 @@
                     </li>
                     <li>
                       <p>Espessura máxima:</p>
-                      <h4>!! 2 formulas</h4>
+                      <img src="images/01/formula28.png" alt="" class="img-responsive">
+                      <br>
+                      <img src="images/01/formula29.png" alt="" class="img-responsive">
                     </li>
                     <li>
                       <p>
                         Descentração:
                       </p>
-                      <h4>!! formula</h4>
+                      <img src="images/01/formula30.png" alt="" class="img-responsive">
                     </li>
                     <p>DB=0,019x1,10x70x5,5x0,1= 0,80 mm<br>
                       EO=1,4+0,80=2,20mm </p>
 
                     <li>
                       <p>Curva de influência:</p>
-                      <h4>!! 2 formulas</h4>
+                      <img src="images/01/formula31.png" alt="" class="img-responsive">
+                      <p>CO2 inf=−3,33+−1,13=−3,33−1,13=−4,46</p>
                     </li>
                   </ul>
                   <p>No caso desta prescrição: <b>+3,00 -1,25 x 85º</b>, foram aplicados os cálculos necessários, e por
@@ -897,7 +924,6 @@
 
         </div>
 
-        <h4>!! terminar acessibilidade</h4>
         <div class="acessivel">
           <h4>Aplicação das fórmulas em lentes visão simples centrada </h4>
           <p>Exemplo 1: </p>
@@ -933,11 +959,11 @@
           </p>
           <p>Observe os dados aplicados na fórmula: </p>
 
-          <ul>
+          <ul class="cor01">
             <li>
               <p>
                 Fator de conversão:<br>
-                FC=1,530−11,499−1=0,530,499=1,06
+                <img src="images/01/formula22.png" class="img-responsive" alt="">
               </p>
             </li>
             <li>
@@ -971,7 +997,8 @@
             <li>
               <p>
                 Espessura máxima: <br>
-                E=6922. 3,181000+2,0=4,86mm
+                E=6922. 3,18/1000+2,0=4,86mm
+                !! Aqui faltou a formula
               </p>
             </li>
           </ul>
@@ -983,10 +1010,11 @@
         <div class="acessivel">
           <h4>Visão simples descentrada</h4>
           <img src="images/01/receita04.png" alt="">
-          <h4>!! fazer tabela aqui pls</h4>
+
           <p>Curva-base de bloco semiacabado de +5,00 com diâmetro 65. <br>
             Dados da armação: p=20H=56 MD=55 <br>
             Índice de refração da lente 1,499 </p>
+
           <p>
             CB=+5,00 <br>
             D=+2,00-1,00 eixo 90 <br>
@@ -995,11 +1023,10 @@
             *Dados da armação <br>
             N=1,499
           </p>
-          <ul>
+          <ul class="cor01">
             <li>
               <p>Fator de conversão:</p>
-              <!-- <img src="images/01/formula20.png" alt=""> -->
-              <h4>!! formula</h4>
+              <img src="images/01/formula22.png" alt="" class="img-responsive">
             </li>
             <li>
               <p>
@@ -1032,15 +1059,26 @@
             <li>
               <p>
                 Espessura máxima:
-              <h4>!! 2 formulas aqui</h4>
+                <img src="images/01/formula23.png" alt="" class="img-responsive">
+                <br>
+                <img src="images/01/formula24.png" alt="" class="img-responsive">
               </p>
             </li>
             <li>
               <p>
                 Descentração:
-              <h4>!! 1 formula</h4>
+                <img src="images/01/formula25.png" alt="" class="img-responsive">
               </p>
+              <p>DB=0,019x1,88x73x8x0,1= 2,08 mm<br>
+                EO=1,6+2,08=3,68mm</p>
             </li>
+          </ul>
+
+          <p>Quando a lente é descentrada positiva, a <b>espessura oposta</b> (EO) será a espessura de borda
+            nasal. Nesse caso, 3,68mm será a <b>espessura oposta</b> e <b>espessura mínima</b> (e) será o valor
+            da espessura de borda temporal 1,6mm, enquanto a <b>espessura máxima</b> de 4,42mm encontra-se no
+            centro da lente.</p>
+
           </ul>
           <p>DB=0,019x1,88x73x8x0,1= 2,08 mm<br>
             EO=1,6+2,08=3,68mm</p>
@@ -1051,72 +1089,86 @@
         </div>
         <div class="acessivel">
           <h4>Visão simples com curvatura de influência</h4>
-            <img src="images/01/receita05.png" alt="">
-            <p>
-              Curva-base de bloco semiacabado de +6,00 com diâmetro 70.<br>
-              Dados da armação: p=17 H=55 MD=57.<br>
-              Índice de refração da lente 1,586.
-            </p>
-            <p>
-              CB=+6,00<br>
-              Dnp=30<br>
-              Ø= 70<br>
-              Índice da lente=1,586
-            </p>
-            <ul>
-              <li>
-                <p>
-                  Fator de conversão:
-                <h4>!! 2 formulas</h4>
-                </p>
-              </li>
-              <li>
-                <p>
-                  Nova dioptria:<br>
-                  FC= 0,91. 3,00=+2,73<br>
-                  FC cil.= 0,91. 1,25= -1,13<br>
-                  D= +2,73 -1,13 eixo 85°<br>
-                  Transp.=+1,60+1,13 eixo 175°
-                </p>
-              </li>
-              <li>
-                <p>
-                  Curvas internas:<br>
-                  CO=+2,73−+6,00=+2,73−6,00=−3,27<br>
-                  CO2=−3,27+−1,13=−3,27−1,13=−4,40
-                </p>
-              </li>
-              <li>
-                <p>
-                  Diâmetro:<br>
-                  Dados da armação: P=17, DH=55, DM=57<br>
-                  DI= 17+55+57-60+2= 71mm
-                </p>
-              </li>
-              <li>
-                <p>Espessura máxima:</p>
-                <h4>!! 2 formulas</h4>
-              </li>
-              <li>
-                <p>
-                  Descentração:
-                </p>
-                <h4>!! formula</h4>
-              </li>
-              <p>DB=0,019x1,10x70x5,5x0,1= 0,80 mm<br>
-                EO=1,4+0,80=2,20mm </p>
+          <img src="images/01/receita05.png" alt="">
+          <p>
+            Curva-base de bloco semiacabado de +6,00 com diâmetro 70.<br>
+            Dados da armação: p=17 H=55 MD=57.<br>
+            Índice de refração da lente 1,586.
+          </p>
 
-              <li>
-                <p>Curva de influência:</p>
-                <h4>!! 2 formulas</h4>
-              </li>
-            </ul>
-            <p>No caso desta prescrição: <b>+3,00 -1,25 x 85º</b>, foram aplicados os cálculos necessários, e por
-              ser uma dioptria de +3,00, calcula-se a curva de influência, em que as curvas internas serão
-              <b>curva oposta 1 inf.</b> (CO) CO inf=−3,33 e <b>curva oposta 2 inf.</b> (CO2) CO2 inf =-4,46. A
-              <b>espessura oposta</b> (EO) será a espessura de borda nasal 2,20mm e a <b>espessura mínima</b> (e)
-              será o valor da espessura de borda temporal 1,4mm. 
-            </p>
+          <p>
+            CB=+6,00<br>
+            Dnp=30<br>
+            Ø= 70<br>
+            Índice da lente=1,586
+          </p>
+          <ul class="cor01">
+            <li>
+              <p>
+                Fator de conversão:
+                <img src="images/01/formula26.png" alt="" class="img-responsive">
+                <br>
+                <img src="images/01/formula27.png" alt="" class="img-responsive">
+              </p>
+            </li>
+            <li>
+              <p>
+                Nova dioptria:<br>
+                FC= 0,91. 3,00=+2,73<br>
+                FC cil.= 0,91. 1,25= -1,13<br>
+                D= +2,73 -1,13 eixo 85°<br>
+                Transp.=+1,60+1,13 eixo 175°
+              </p>
+            </li>
+            <li>
+              <p>
+                Curvas internas:<br>
+                CO=+2,73−+6,00=+2,73−6,00=−3,27<br>
+                CO2=−3,27+−1,13=−3,27−1,13=−4,40
+              </p>
+            </li>
+            <li>
+              <p>
+                Diâmetro:<br>
+                Dados da armação: P=17, DH=55, DM=57<br>
+                DI= 17+55+57-60+2= 71mm
+              </p>
+            </li>
+            <li>
+              <p>Espessura máxima:</p>
+              <img src="images/01/formula28.png" alt="" class="img-responsive">
+              <br>
+              <img src="images/01/formula29.png" alt="" class="img-responsive">
+            </li>
+            <li>
+              <p>
+                Descentração:
+              </p>
+              <img src="images/01/formula30.png" alt="" class="img-responsive">
+            </li>
+            <p>DB=0,019x1,10x70x5,5x0,1= 0,80 mm<br>
+              EO=1,4+0,80=2,20mm </p>
+
+            <li>
+              <p>Curva de influência:</p>
+              <img src="images/01/formula31.png" alt="" class="img-responsive">
+              <p>CO2 inf=−3,33+−1,13=−3,33−1,13=−4,46</p>
+            </li>
+          </ul>
+          <p>No caso desta prescrição: <b>+3,00 -1,25 x 85º</b>, foram aplicados os cálculos necessários, e por
+            ser uma dioptria de +3,00, calcula-se a curva de influência, em que as curvas internas serão
+            <b>curva oposta 1 inf.</b> (CO) CO inf=−3,33 e <b>curva oposta 2 inf.</b> (CO2) CO2 inf =-4,46. A
+            <b>espessura oposta</b> (EO) será a espessura de borda nasal 2,20mm e a <b>espessura mínima</b> (e)
+            será o valor da espessura de borda temporal 1,4mm. 
+          </p>
+
+          </ul>
+          <p>No caso desta prescrição: <b>+3,00 -1,25 x 85º</b>, foram aplicados os cálculos necessários, e por
+            ser uma dioptria de +3,00, calcula-se a curva de influência, em que as curvas internas serão
+            <b>curva oposta 1 inf.</b> (CO) CO inf=−3,33 e <b>curva oposta 2 inf.</b> (CO2) CO2 inf =-4,46. A
+            <b>espessura oposta</b> (EO) será a espessura de borda nasal 2,20mm e a <b>espessura mínima</b> (e)
+            será o valor da espessura de borda temporal 1,4mm. 
+          </p>
         </div>
 
         <h3>Encerramento</h3>
@@ -1200,6 +1252,9 @@
   <script src="js/print.js"></script>
   <script src="js/template.config.js"></script>
   <script src="js/images.loader.js"></script>
+  <script src="js/01.js"></script>
+  <script src="js/aos.js"></script>
+  <script>AOS.init()</script>
   <noscript>
     <style media="screen">
       .over-loader {

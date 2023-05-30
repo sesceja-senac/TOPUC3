@@ -20,6 +20,7 @@
     <!--<link href="custom.css" type="text/css" rel="stylesheet"> -->
     <!-- css necessario para o print -->
     <link href="css/fa/css/font-awesome.min.css" type="text/css" rel="stylesheet">
+    <link href="css/aos.css" type="text/css" rel="stylesheet">
     <link href="css/vertical-ui.css" type="text/css" rel="stylesheet">
     <link href="css/print.css" type="text/css" rel="stylesheet">
 
@@ -88,7 +89,7 @@
                 <h4>Introdução</h4>
                 <p>Neste conhecimento, você verá como é realizado o polimento e a desblocagem das lentes e, em seguida, realizará a conferência no lensômetro digital, ideal para uso em laboratórios, visto que atribui mais agilidade ao processo de conferência das lentes oftálmicas, quando comparado a um lensômetro manual. </p>
                 <p>Assista ao vídeo a seguir para ver como são realizados esses processos.  </p>
-                <div class="container-05">
+                <div data-aos="zoom-in" class="container-05">
                   <button data-toggle="modal" data-target="#modal-1" class="video-polimento"></button>
                   <button data-toggle="modal" data-target="#modal-2" class="video-desblocagem"></button>
                   <button data-toggle="modal" data-target="#modal-3" class="simulador-lensometro"></button>
@@ -208,6 +209,9 @@
     <img src="images/zoom.png">
     <img src="images/zoom_ie.cur">
     <img src="images/zoom_ie.png">
+    <img src="images/05/img-desblocagem_hover.png">
+    <img src="images/05/img-simulador_hover.png">
+    <img src="images/05/img-polimento_hover.png">
     <!-- adicionar as imagens customizadas aqui abaixo -->
 </div>
 
@@ -219,6 +223,8 @@
 <script src="js/print.js"></script>
 <script src="js/template.config.js"></script>
 <script src="js/images.loader.js"></script>
+<script src="js/aos.js"></script>
+<script>AOS.init()</script>
 <noscript>
   <style media="screen">
     .over-loader { display: none;}    
