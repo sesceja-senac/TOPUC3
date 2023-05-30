@@ -1,0 +1,219 @@
+body {
+    background-image: url('../images/01/bg.png');
+    background-attachment: fixed;
+}
+figcaption {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.fig-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin: 30px auto;
+}
+.fig-flex img {
+    margin-left: 20px;
+}
+.fig-flex figcaption {
+    text-align: left;
+    margin-right: 20px;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+h3 {
+    margin-top: 60px;
+}
+h4 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.modal-btn {
+    background-color: #c3c3c330;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 3px 3px 3px black;
+    transition-duration: .1s;
+    max-width: 45%;
+    margin: 10px;
+}
+.modal-btn h4 {
+    color: black;
+}
+.modal-btn p {
+    font-size: 14px;
+}
+.modal-btn:hover {
+    transform: scale(1.01);
+    transition-duration: .1s;
+}
+.modal-btn img {
+    max-width: 100%;
+}
+.modal-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.citacao {
+    padding-left: 30%;
+    line-height: 2.2rem;
+    margin-bottom: 40px;
+    font-style: italic;
+}
+
+/*cards*/
+.flip-card {
+	perspective: 1000px;
+	min-height: 390px;
+	margin: 50px auto;
+	cursor: pointer;
+}
+.flip-card-inner {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	transition: transform 0.8s;
+	transform-style: preserve-3d;
+}
+.flip-card:hover .flip-card-inner {
+	transform: rotateY(180deg);
+}
+.flip-card-front, .flip-card-back {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+.flip-card-back {
+	transform: rotateY(180deg);
+    z-index: 10;
+    background-color: white;
+}
+.infografico-1 {
+    width: fit-content;
+    display: block;
+    margin: 40px auto;
+}
+.info-1, .info-2 {
+    height: 201px;
+    max-width: 801px;
+    padding: 20px;
+    padding-left: 150px;
+    padding-right: 50px;
+    background-position: center right;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+.info-1 {
+    background-image: url('../images/01/infografico1_bg1.png');    
+}
+.info-2 {
+    background-image: url('../images/01/infografico1_bg2.png');
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.info-1 h4 {
+    color: #1d86aa;
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+.info-2 h4 {
+    color: #28afb2;
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+.infografico-1 div:nth-child(1)::before {
+    content: '';
+    width: 203px;
+    height: 203px;
+    background-image: url('../images/01/infografico1_icone1.png');
+    position: absolute;
+    left: -80px;
+}
+.infografico-1 div:nth-child(2)::before {
+    content: '';
+    width: 203px;
+    height: 203px;
+    background-image: url('../images/01/infografico1_icone2.png');
+    position: absolute;
+    left: -80px;
+}
+.infografico-1 div:nth-child(3)::before {
+    content: '';
+    width: 203px;
+    height: 203px;
+    background-image: url('../images/01/infografico1_icone3.png');
+    position: absolute;
+    left: -80px;
+}
+
+.infografico-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 40px auto;
+}
+.infografico-2 img {
+    max-width: 100%;
+    margin-top: -2px;
+}
+
+@media (max-width:1000px){
+    .modal-btn {
+        max-width: 45%;
+    }
+}
+
+@media (max-width:650px){
+    .modal-btn {
+        max-width: 100%;
+    }
+    .info-1, .info-2 {
+        width: 100%;
+        height: auto;
+        background-size: contain;        
+        background-image: unset;
+        background: rgb(234,242,255);
+        background: linear-gradient(180deg, rgba(234,242,255,1) 0%, rgba(255,255,255,1) 100%);
+        padding-left: unset;
+        padding: 40px;
+        padding-top: 80px;
+        text-align: center;
+        border: 4px solid #cecece;
+        border-radius: 25px;
+        margin-top: 80px;
+    }
+    .infografico-1 div:nth-child(3)::before, .infografico-1 div:nth-child(2)::before, .infografico-1 div:nth-child(1)::before {
+        top: -80px;
+        left: 50%;
+        transform: translateX(-50%);
+        height: 150px;
+        width: 150px;
+        background-size: contain;
+    }
+    .infografico-1 {
+        padding-top: 10px;
+    }
+    .fig-flex {
+        flex-direction: column;
+        text-align: center;
+    }
+    .fig-flex img {
+        margin-left: 0;
+        max-width: 100%;
+    }
+    .fig-flex figcaption {
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+}
