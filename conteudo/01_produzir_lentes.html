@@ -99,7 +99,7 @@
           <img src="images/01/formula01.png"
             alt="índice de refração é igual a velocidade da luz no ar, dividido pela velocidade da luz no meio.">
           <figcaption>
-            <b>i</b>: índice de refração <br>
+            <i><b>i</b></i>: índice de refração <br>
             <b>Va</b>: velocidade da luz no ar <br>
             <b>Vm</b>: velocidade da luz no meio
           </figcaption>
@@ -194,7 +194,8 @@
             <b>1</b> = Índice de refração absoluto
           </figcaption>
         </figure>
-        <p>Clique ou toque para visualizar alguns exemplos.</p>
+        <p class="print visible-print">Visualize alguns exemplos.</p>
+        <p class="no-print">Clique ou toque para visualizar alguns exemplos.</p>
         <div class="panel-group gaitinha" id="accordion" role="tablist" aria-multiselectable="true">
           <div class="panel panel-default">
             <div class="panel-heading" role="tab" id="headingOne">
@@ -252,7 +253,37 @@
             </div>
           </div>
         </div>
-
+        <div class="no-print acessivel">
+          <h3>Exemplo 1 </h3>
+          <p>Tendo um molde preparado para o n=1,530, será trabalhado um material de lente com n= 1,67. Qual o
+            fator de conversão deve ser usado? </p>
+          <img src="images/01/formula05.png" class="img-responsive center-block">
+          <h3> Exemplo 2 </h3>
+          <p>Calcular a curva interna para a confecção de uma lente no material 1,66, usando um molde preparado
+            para o índice 1,530, com a refração de -2,00 – 1,50, tendo sido a curva externa elaborada com +4,00.
+          </p>
+          <img src="images/01/formula06.png" class="img-responsive center-block">
+          <p class="text-center">Multiplicar a força esférica e cilíndrica por 0,80. <br>
+            Esférica -2,00 x 0,80 = - 1,60 <br>
+            Cilíndrica -1,50 x 0,80 = 1,20
+          </p>
+          <p>Após a multiplicação, é necessário somar o valor encontrado no esférico à curva-base externa
+            fornecida, e o resultado do cilíndrico ao resultado da soma do esférico com a base externa. </p>
+          <p class="text-center">
+            Curva oposta (CO) = -1,58 – (+ 4,00) <br>
+            Curva oposta (CO) = -1,58 – 4,00 <br>
+            Curva oposta (CO) = - 5,58
+          </p>
+          <p>Após calculada a curvatura esférica, o seu resultado é utilizado para encontrar a curvatura
+            cilíndrica. </p>
+          <p class="text-center">
+            CO2 = - 5,58 + (-1,18) <br>
+            CO2 = -5,58 -1,18 <br>
+            CO2 = - 6,76
+          </p>
+          <p>Para que essa lente fique de acordo com a refração desejada, deve-se usar um molde com as curvaturas
+            mais próximas de -5,58/-6,76. </p>
+        </div>
         <h3>Transposição</h3>
         <p>Para relembrar o que foi estudado anteriormente sobre as prescrições com astigmatismo, utiliza-se a
           Transposição para a conversão da receita de cilíndrico positivo para negativo, para fins de fabricação da
@@ -262,7 +293,7 @@
 
         <h4>Regras para transposição</h4>
 
-        <div data-aos="zoom-in" class="infografico-1">
+        <div data-aos="zoom-in" class="infografico-1 no-print">
           <div class="info-1">
             <h4>Sinais iguais</h4>
             <p>Repete-se o sinal, somam-se os dois valores para o novo esférico, inverte-se o sinal do cilíndrico,
@@ -295,23 +326,123 @@
             apresentar menor que 90°, devem ser somados 90°. Na prescrição dos eixos, são utilizados valores de 0° a
             180°.</p>
         </div>
-        <p>Clique ou toque para visualizar os três exemplos a seguir.</p>
+        <div class="print visible-print acessivel">
+          <p>Visualize os três exemplos a seguir:</p>
+          <h3>Receita A</h3>
+          <div data-aos="zoom-in" class="table-responsive aos-init aos-animate">
+            <table class="senac">
+              <tbody>
+                <tr>
+                  <th></th>
+                  <th></th>
+                  <th>ESFÉRICO </th>
+                  <th>CILÍNDRICO</th>
+                  <th>EIXO</th>
+                </tr>
+                <tr>
+                  <td>Longe</td>
+                  <td>OD</td>
+                  <td>+1,00</td>
+                  <td>-2,00</td>
+                  <td>90</td>
+                </tr>
+                <tr>
+                  <td>Longe</td>
+                  <td>OE</td>
+                  <td>0,00</td>
+                  <td>0,00</td>
+                  <td>0</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p>Qual é a transposição? <br>
+            <b>Resultado</b>: -1,00 +2,00 eixo 180° <br>
+            <b>Explicação</b>: para sinais diferentes, realiza-se a subtração, conservando o sinal do maior (-1,00), o
+            sinal do cilíndrico ficará positivo mantendo o mesmo valor, e ao valor do eixo somam-se 90°.
+          </p>
+          <h3>Receita B</h3>
+          <table class="senac">
+            <tbody>
+              <tr>
+                <th></th>
+                <th></th>
+                <th>ESFÉRICO </th>
+                <th>CILÍNDRICO</th>
+                <th>EIXO</th>
+              </tr>
+              <tr>
+                <td>Longe</td>
+                <td>OD</td>
+                <td>+2.25</td>
+                <td>+1.50</td>
+                <td>145</td>
+              </tr>
+              <tr>
+                <td>Longe</td>
+                <td>OE</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0</td>
+              </tr>
+            </tbody>
+          </table>
+          </table>
+          </p>Qual é a transposição? <br>
+          <b>Resultado</b>: +3,75 -1,50 eixo 55° <br>
+          <b>Explicação</b>: sinais iguais somam-se mantendo o sinal, conserva o valor do cilíndrico, alterando o sinal
+          para negativo, e o valor do eixo diminui 90° (por ser maior que 90°). </p>
+          <h3>Receita C</h3>
+          <table class="senac">
+            <tbody>
+              <tr>
+                <th></th>
+                <th></th>
+                <th>ESFÉRICO </th>
+                <th>CILÍNDRICO</th>
+                <th>EIXO</th>
+              </tr>
+              <tr>
+                <td>Longe</td>
+                <td>OD</td>
+                <td>0,00</td>
+                <td>+1,75</td>
+                <td>25</td>
+              </tr>
+              <tr>
+                <td>Longe</td>
+                <td>OE</td>
+                <td>0,00</td>
+                <td>0,00</td>
+                <td>0</td>
+              </tr>
+            </tbody>
+          </table>
+          </table>
+          <p>Qual é a transposição? <br>
+            <b>Resultado</b>: +1,75 -1,75 eixo 115° <br>
+            <b>Explicação</b>: quando o esférico for plano (0,00), o valor do cilíndrico será o esférico mantendo o
+            mesmo valor no cilíndrico, apenas alterando o sinal, e ao valor do eixo somam-se 90°.
+          </p>
+        </div>
+        <p class="no-print">Clique ou toque para visualizar os três exemplos a seguir.</p>
         <div data-aos="zoom-in" class="row no-print" aria-hidden="true">
-          <div class="col-lg-4 col-sm-12">
+          <div class="col-lg-4 col-sm-12 ">
             <div class="flip-card">
               <div class="flip-card-inner">
-                <div class="flip-card-front">
-                  <h4>1. Receita A</h4>
+                <div class="flip-card-front moldura">
+                  <h4>Receita A</h4>
                   <img src="images/01/receita01.png" class="img-responsive center-block">
                 </div>
                 <div class="flip-card-back">
-                  <p>Qual é a transposição? </p>
+                  <!-- <p>Qual é a transposição? </p>
                   <p>
                     <b>Resultado</b>: -1,00 +2,00 eixo 180°<br>
                     <b>Explicação</b>: para sinais diferentes, realiza-se a subtração, conservando o sinal do maior
                     (-1,00), o sinal do cilíndrico ficará positivo mantendo o mesmo valor, e ao valor do eixo somam-se
                     90°.
-                  </p>
+                  </p> -->
+                  <img src="images/01/receita01_layout_verso.png" class="img-responsive center-block">
                 </div>
               </div>
             </div>
@@ -319,12 +450,12 @@
           <div class="col-lg-4 col-sm-12">
             <div class="flip-card">
               <div class="flip-card-inner">
-                <div class="flip-card-front">
-                  <h4>1. Receita B</h4>
+                <div class="flip-card-front moldura">
+                  <h4>Receita B</h4>
                   <img src="images/01/receita02.png" class="img-responsive center-block">
                 </div>
                 <div class="flip-card-back">
-                  <img src="imgs/card_2_verso.png" class="img-responsive center-block">
+                  <img src="images/01/receita02_layout_verso.png" class="img-responsive center-block">
                 </div>
               </div>
             </div>
@@ -332,12 +463,12 @@
           <div class="col-lg-4 col-sm-12">
             <div class="flip-card">
               <div class="flip-card-inner">
-                <div class="flip-card-front">
-                  <h4>1. Receita C</h4>
+                <div class="flip-card-front moldura">
+                  <h4>Receita C</h4>
                   <img src="images/01/receita03.png" class="img-responsive center-block">
                 </div>
                 <div class="flip-card-back">
-                  <img src="imgs/card_3_verso.png" class="img-responsive center-block">
+                  <img src="images/01/receita03_layout_verso.png" class="img-responsive center-block">
                 </div>
               </div>
             </div>
@@ -351,9 +482,10 @@
           o bloco a ser surfaçado. A fórmula a seguir é a mais utilizada, ou seja, os resultados dessa fórmula são
           exatos somente para os casos em que o tamanho da armação seja igual à distância pupilar ou a altura de centro
           óptico esteja posicionada no centro geométrico do aro. </p>
-          <p class="acessivel">
-            Fórmula em que o diâmetro ideal do bloco é igual à ponte da armação, mais o diâmetro da armação medida na horizontal do aro, mais o diâmetro maior do aro da armação, menos a distância pupilar, mais dois.
-          </p>
+        <p class="acessivel">
+          Fórmula em que o diâmetro ideal do bloco é igual à ponte da armação, mais o diâmetro da armação medida na
+          horizontal do aro, mais o diâmetro maior do aro da armação, menos a distância pupilar, mais dois.
+        </p>
         <figure class="fig-flex">
           <img src="images/01/formula08.png" alt="">
           <figcaption>
@@ -365,6 +497,7 @@
             <b>2</b> = Acréscimo para fazer a faceta da lente na montagem
           </figcaption>
         </figure>
+
         <h4>Cálculos: de transposição; de superfície (curvatura externa e interna); de espessura; de descentração</h4>
         <p>Fazendo combinações de curvas de um bloco de lente orgânica, policarbonato ou alto índice, tem-se o processo
           chamado de surfaçagem, cujo objetivo final é obter dioptrias que servirão para corrigir as ametropias. As
@@ -405,7 +538,8 @@
           vezes, de forma côncava negativa. Para a surfaçagem de lentes visão simples esféricas, será utilizada a
           seguinte fórmula para encontrar a curva oposta. </p>
         <p class="acessivel">
-          Fórmula em que a curva interna da lente é igual à dioptria, menos, abre parênteses, curva-base, fecha parênteses.
+          Fórmula em que a curva interna da lente é igual à dioptria, menos, abre parênteses, curva-base, fecha
+          parênteses.
         </p>
         <figure class="fig-flex">
           <img src="images/01/formula12.png" alt="">
@@ -427,7 +561,7 @@
         <p>Para a surfaçagem de lentes visão simples cilíndricas, será utilizada a seguinte fórmula para encontrar a
           curva oposta 2. </p>
         <p class="acessivel">
-          Fórmula em que a curva interna cilíndrica dois é igual à curva interna da lente, mais o valor do cilíndrico. 
+          Fórmula em que a curva interna cilíndrica dois é igual à curva interna da lente, mais o valor do cilíndrico.
         </p>
         <figure class="fig-flex">
           <img src="images/01/formula13.png" alt="">
@@ -514,7 +648,7 @@
             <b>E</b> = espessura máxima <br>
             <b>∅</b> = diâmetro <br>
             <b>D</b> = dioptria <br>
-            <b>E</b> = espessura mínima
+            <i><b>e</b></i> = espessura mínima
           </figcaption>
         </figure>
         <div data-aos="zoom-in" class="caixa-destaque icone-anotar">
@@ -531,7 +665,17 @@
         <h4>Dioptria a zero grau</h4>
         <p>Esta fórmula é utilizada apenas nas lentes cilíndricas devido ao valor do esférico não se manter em toda a
           lente, somente quando o eixo for a zero. </p>
-        <img src="images/01/formula16.png" class="img-responsive center-block">
+        <figure class="fig-flex">
+          <img src="images/01/formula16.png" class="img-responsive center-block">
+          <figcaption>
+            <b>D0</b> = dioptria zero <br>
+            <b>cil</b> = cilíndrico <br>
+            <i><b>eixo</b></i> = eixo do cilíndrico <br>
+            <b>90</b> = constante<br>
+            <b>D</b> = dioptria
+          </figcaption>
+        </figure>
+
 
         <h4>Lentes visão simples centradas</h4>
         <p>São lentes com o centro óptico no centro geométrico da lente. O centro geométrico do bloco coincide com o
@@ -581,10 +725,60 @@
 
       <div class="pagina">
         <h3>Fórmulas para calcular as diferenças das bordas</h3>
-        <img src="images/01/formula18.png" class="img-responsive center-block">
-        <img src="images/01/formula19.png" class="img-responsive center-block">
-        <img src="images/01/formula20.png" class="img-responsive center-block">
-
+        <figure class="fig-flex ">
+          <img src="images/01/formula18.png" class="img-responsive center-block">
+          <figcaption>
+            <b>DB</b> = diferença de borda <br>
+            <b>D</b> = dioptria <br>
+            <b>∅</b> = diâmetro <br>
+            <b>DS</b> = descentração
+          </figcaption>
+        </figure>
+        <figure class="fig-flex ">
+          <img src="images/01/formula19.png" class="img-responsive center-block">
+          <figcaption>
+            <b>DB</b> = diferença de borda<br>
+            <b>Do</b> = dioptria zero<br>
+            <b>∅</b> = diâmetro<br>
+            <b>DS</b> = descentração
+          </figcaption>
+        </figure>
+        <figure class="fig-flex ">
+          <img src="images/01/formula20.png" class="img-responsive center-block">
+          <figcaption>
+            <b>ET</b> = espessura total<br>
+            <b>E</b> = espessura máxima<br>
+            <b>DB</b> = diferença de borda
+          </figcaption>
+        </figure>
+        <div class="acessivel">
+          <figure class="fig-flex ">
+            <img src="images/01/formula18.png" class="img-responsive center-block">
+            <figcaption>
+              <b>DB</b> = diferença de borda <br>
+              <b>D</b> = dioptria <br>
+              <b>∅</b> = diâmetro <br>
+              <b>DS</b> = descentração
+            </figcaption>
+          </figure>
+          <figure class="fig-flex ">
+            <img src="images/01/formula19.png" class="img-responsive center-block">
+            <figcaption>
+              <b>DB</b> = diferença de borda<br>
+              <b>Do</b> = dioptria zero<br>
+              <b>∅</b> = diâmetro<br>
+              <b>DS</b> = descentração
+            </figcaption>
+          </figure>
+          <figure class="fig-flex ">
+            <img src="images/01/formula20.png" class="img-responsive center-block">
+            <figcaption>
+              <b>ET</b> = espessura total<br>
+              <b>E</b> = espessura máxima<br>
+              <b>DB</b> = diferença de borda
+            </figcaption>
+          </figure>
+        </div>
         <h4>Cálculo de curvatura de influência</h4>
         <p>Calcula-se influência de espessuras em lentes com dioptrias maiores que +3,00 e nas prismáticas positivas
           acima de 0,25, sobre o maior esférico. Em lentes negativas, não há influência de espessura, devido à sua
@@ -595,7 +789,9 @@
           refração no interior da lente sendo evidentemente maior quanto mais espessa for a lente. Para calcular a
           curvatura de influência, são utilizadas as seguintes fórmulas. </p>
         <img src="images/01/formula21.png" class="img-responsive center-block">
-
+        <div data-aos="zoom-in" class="caixa-destaque icone-anotar aos-init">
+          <p>Observação: para transformar “mm” em “m”, basta dividir por mil.</p>
+        </div>
         <h3>Testes cilíndricos cruzados</h3>
         <p>O cilindro cruzado é um teste utilizado para determinar e afinar o valor do astigmatismo, mediante uma lente
           de cilindros cruzados. Essa lente é usada durante os exames de refração, para que, de forma rápida, seja
@@ -612,14 +808,13 @@
         <h4>Descruzando cilíndricos </h4>
         <p>É necessário descruzar os cilíndricos para obter a receita e dar continuidade aos cálculos de fabricação.
           Veja o passo a passo no infográfico a seguir. </p>
-        <div data-aos="zoom-in" class="infografico-2">
+        <div data-aos="zoom-in" class="infografico-2 no-print">
           <img src="images/01/infografico2_01.png" alt="">
           <img src="images/01/infografico2_02.png" alt="">
           <img src="images/01/infografico2_03.png" alt="">
         </div>
         <div class="acessivel">
-          <p>
-            1° passo: fazer a soma algébrica do esférico com o 1° cilíndrico. <br>
+          <p>1° passo: fazer a soma algébrica do esférico com o 1° cilíndrico. <br>
             2° passo: calcular a distância percorrida do 1° cilíndrico até o 2°. <br>
             3° passo: conservar o eixo do 2° cilíndrico.
           </p>
@@ -639,7 +834,7 @@
               Descruzando: +3,00-3,00 eixo 100°
             </p>
             <br>
-            <img src="images/01/regua1.png" alt="" class="img-responsive center-block"><br>
+            <img src="images/01/regua1.png" alt="" class="img-responsive center-block moldura"><br>
           </div>
           <div class="col-lg-6 col-md-6 col-xs-12">
             <p class="text-center">
@@ -649,7 +844,7 @@
               Descruzando: -1,00+1,00 eixo 100° <br>
               Transposição: 0,00-1,00 eixo 10°
             </p>
-            <img src="images/01/regua2.png" alt="" class="img-responsive center-block"><br>
+            <img src="images/01/regua2.png" alt="" class="img-responsive center-block moldura"><br>
           </div>
           <div class="col-lg-12 col-md-12 col-xs-12">
             <p class="text-center">
@@ -659,17 +854,17 @@
               Descruzando: +2,00+4,00 eixo 30° <br>
               Transposição:+5,00-4,00 eixo 120°
             </p>
-            <img src="images/01/regua3.png" alt="" class="img-responsive center-block">
+            <img src="images/01/regua3.png" alt="" class="img-responsive center-block moldura">
           </div>
         </div>
 
         <p>Clique ou toque para visualizar os exemplos.</p>
 
-        <div data-aos="zoom-in" class="modal-container">
+        <div data-aos="zoom-in" class="modal-container no-print">
           <!-- Button trigger modal -->
           <button type="button" class="modal-btn" data-toggle="modal" data-target="#modal-1">
             <h4>Aplicação das fórmulas em lentes visão simples centrada </h4>
-            <img src="images/01/receita03.png" alt="">
+            <img src="images/01/receita04.png" alt="">
             <p>
               Curva-base de bloco semiacabado de +4,00 com diâmetro 70. <br>
               Dados da armação: p=18 H=54 MD=56 DP=60 <br>
@@ -678,14 +873,14 @@
           </button>
           <button type="button" class="modal-btn" data-toggle="modal" data-target="#modal-2">
             <h4>Visão simples descentrada</h4>
-            <img src="images/01/receita04.png" alt="">
+            <img src="images/01/receita05.png" alt="">
             <p>Curva-base de bloco semiacabado de +5,00 com diâmetro 65. <br>
               Dados da armação: p=20H=56 MD=55 <br>
               Índice de refração da lente 1,499 </p>
           </button>
           <button type="button" class="modal-btn" data-toggle="modal" data-target="#modal-3">
             <h4>Visão simples com curvatura de influência</h4>
-            <img src="images/01/receita05.png" alt="">
+            <img src="images/01/receita06.png" alt="">
             <p>
               Curva-base de bloco semiacabado de +6,00 com diâmetro 70.<br>
               Dados da armação: p=17 H=55 MD=57.<br>
@@ -694,241 +889,242 @@
           </button>
 
 
-          <!-- Modal -->
-          <div class="modal fade" id="modal-1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-            <div class="modal-dialog modal-lg" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
-                      aria-hidden="true">&times;</span></button>
-                  <h4 class="modal-title" id="myModalLabel">Aplicação das fórmulas em lentes visão simples centrada</h4>
-                </div>
-                <div class="modal-body">
-                  <p>Observe os dados aplicados na fórmula: </p>
 
-                  <ul class="cor01">
-                    <li>
-                      <p>
-                        Fator de conversão:<br>
-                        <img src="images/01/formula22.png" class="img-responsive" alt="">
-                      </p>
-                    </li>
-                    <li>
-                      <p>
-                        Nova dioptria: <br>
-                        FC= 1,06. -2,50= -2,65 <br>
-                        FC cil.= 1,06. -0,50= -0,53
-                      </p>
-                    </li>
-                    <li>
-                      <p>
-                        Transposição: <br>
-                        D= -2,65 -0,53 eixo 170 <br>
-                        Transp.= -3,18 +0,53 eixo 80
-                      </p>
-                    </li>
-                    <li>
-                      <p>
-                        Curvas internas: <br>
-                        CO=−2,65−+4,00=−2,65−4,00=−6,65<br>
-                        CO= −6,65+−0,53=−6,65−0,53=−7,18
-                      </p>
-                    </li>
-                    <li>
-                      <p>
-                        Diâmetro: <br>
-                        Dados da armação: P=17, DH=54, DM=56 <br>
-                        DI= 17+54+56-60+2= 69mm
-                      </p>
-                    </li>
-                    <li>
-                      <p>
-                        Espessura máxima: <br>
-                        E=6922. 3,18/1000+2,0=4,86mm
-                        !! Aqui faltou a formula
-                      </p>
-                    </li>
-                  </ul>
-                  <p>Quando a lente é centrada, a espessura de borda será o valor da espessura máxima. Nesse caso, a
-                    lente teria 4,8mm nas bordas e 2mm de espessura de centro, por se tratar de uma lente divergente.
-                  </p>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="modal fade" id="modal-2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-            <div class="modal-dialog modal-lg" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
-                      aria-hidden="true">&times;</span></button>
-                  <h4 class="modal-title" id="myModalLabel">Visão simples descentrada</h4>
-                </div>
-                <div class="modal-body">
-                  <p>
-                    CB=+5,00 <br>
-                    D=+2,00-1,00 eixo 90 <br>
-                    Dnp=30 <br>
-                    Ø= 65 <br>
-                    *Dados da armação <br>
-                    N=1,499
-                  </p>
-                  <ul class="cor01">
-                    <li>
-                      <p>Fator de conversão:</p>
-                      <img src="images/01/formula22.png" alt="" class="img-responsive">
-                    </li>
-                    <li>
-                      <p>
-                        Nova dipotria:<br>
-                        FC= 1,06. 2,00= +2,12<br>
-                        FC cil.= 1,06. 1,00= -1,06<br>
-                        D= +2,12 -1,06 eixo 20°
-                      </p>
-                    </li>
-                    <li>
-                      <p>
-                        Transposição:<br>
-                        Transp.=+1,06 +1,06 eixo 110° 
-                      </p>
-                    </li>
-                    <li>
-                      <p>
-                        Curvas internas:<br>
-                        CO=+2,12−+5,00= +2,12−5,00=−2,88<br>
-                        CO2=−2,88+−1,06= −2,88−1,06=−3,94
-                      </p>
-                    </li>
-                    <li>
-                      <p>
-                        Diâmetro:<br>
-                        Dados da armação: P=20, DH=56, DM=55<br>
-                        DI= 20+56+55-60+2= 73mm
-                      </p>
-                    </li>
-                    <li>
-                      <p>
-                        Espessura máxima:
-                        <img src="images/01/formula23.png" alt="" class="img-responsive">
-                        <br>
-                        <img src="images/01/formula24.png" alt="" class="img-responsive">
-                      </p>
-                    </li>
-                    <li>
-                      <p>
-                        Descentração:
-                        <img src="images/01/formula25.png" alt="" class="img-responsive">
-                      </p>
-                      <p>DB=0,019x1,88x73x8x0,1= 2,08 mm<br>
-                        EO=1,6+2,08=3,68mm</p>
-                    </li>
-                  </ul>
-
-                  <p>Quando a lente é descentrada positiva, a <b>espessura oposta</b> (EO) será a espessura de borda
-                    nasal. Nesse caso, 3,68mm será a <b>espessura oposta</b> e <b>espessura mínima</b> (e) será o valor
-                    da espessura de borda temporal 1,6mm, enquanto a <b>espessura máxima</b> de 4,42mm encontra-se no
-                    centro da lente.</p>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="modal fade" id="modal-3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-            <div class="modal-dialog modal-lg" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
-                      aria-hidden="true">&times;</span></button>
-                  <h4 class="modal-title" id="myModalLabel">Visão simples com curvatura de influência</h4>
-                </div>
-                <div class="modal-body">
-                  <p>
-                    CB=+6,00<br>
-                    Dnp=30<br>
-                    Ø= 70<br>
-                    Índice da lente=1,586
-                  </p>
-                  <ul class="cor01">
-                    <li>
-                      <p>
-                        Fator de conversão:
-                        <img src="images/01/formula26.png" alt="" class="img-responsive">
-                        <br>
-                        <img src="images/01/formula27.png" alt="" class="img-responsive">
-                      </p>
-                    </li>
-                    <li>
-                      <p>
-                        Nova dioptria:<br>
-                        FC= 0,91. 3,00=+2,73<br>
-                        FC cil.= 0,91. 1,25= -1,13<br>
-                        D= +2,73 -1,13 eixo 85°<br>
-                        Transp.=+1,60+1,13 eixo 175°
-                      </p>
-                    </li>
-                    <li>
-                      <p>
-                        Curvas internas:<br>
-                        CO=+2,73−+6,00=+2,73−6,00=−3,27<br>
-                        CO2=−3,27+−1,13=−3,27−1,13=−4,40
-                      </p>
-                    </li>
-                    <li>
-                      <p>
-                        Diâmetro:<br>
-                        Dados da armação: P=17, DH=55, DM=57<br>
-                        DI= 17+55+57-60+2= 71mm
-                      </p>
-                    </li>
-                    <li>
-                      <p>Espessura máxima:</p>
-                      <img src="images/01/formula28.png" alt="" class="img-responsive">
-                      <br>
-                      <img src="images/01/formula29.png" alt="" class="img-responsive">
-                    </li>
-                    <li>
-                      <p>
-                        Descentração:
-                      </p>
-                      <img src="images/01/formula30.png" alt="" class="img-responsive">
-                    </li>
-                    <p>DB=0,019x1,10x70x5,5x0,1= 0,80 mm<br>
-                      EO=1,4+0,80=2,20mm </p>
-
-                    <li>
-                      <p>Curva de influência:</p>
-                      <img src="images/01/formula31.png" alt="" class="img-responsive">
-                      <p>CO2 inf=−3,33+−1,13=−3,33−1,13=−4,46</p>
-                    </li>
-                  </ul>
-                  <p>No caso desta prescrição: <b>+3,00 -1,25 x 85º</b>, foram aplicados os cálculos necessários, e por
-                    ser uma dioptria de +3,00, calcula-se a curva de influência, em que as curvas internas serão
-                    <b>curva oposta 1 inf.</b> (CO) CO inf=−3,33 e <b>curva oposta 2 inf.</b> (CO2) CO2 inf =-4,46. A
-                    <b>espessura oposta</b> (EO) será a espessura de borda nasal 2,20mm e a <b>espessura mínima</b> (e)
-                    será o valor da espessura de borda temporal 1,4mm. 
-                  </p>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
-                </div>
-              </div>
-            </div>
-          </div>
 
         </div>
+        <!-- Modal -->
+        <div class="modal fade" id="modal-1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content no-print">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                    aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Aplicação das fórmulas em lentes visão simples centrada</h4>
+              </div>
+              <div class="modal-body">
+                <p>Observe os dados aplicados na fórmula: </p>
 
-        <div class="acessivel">
+                <ul class="cor01">
+                  <li>
+                    <p>
+                      Fator de conversão:<br>
+                      <img src="images/01/formula22.png" class="img-responsive" alt="">
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      Nova dioptria: <br>
+                      FC= 1,06. -2,50= -2,65 <br>
+                      FC cil.= 1,06. -0,50= -0,53
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      Transposição: <br>
+                      D= -2,65 -0,53 eixo 170 <br>
+                      Transp.= -3,18 +0,53 eixo 80
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      Curvas internas: <br>
+                      CO=−2,65−+4,00=−2,65−4,00=−6,65<br>
+                      CO= −6,65+−0,53=−6,65−0,53=−7,18
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      Diâmetro: <br>
+                      Dados da armação: P=17, DH=54, DM=56 <br>
+                      DI= 17+54+56-60+2= 69mm
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      Espessura máxima: <br>
+                      E=6922. 3,18/1000+2,0=4,86mm
+                      !! Aqui faltou a formula
+                    </p>
+                  </li>
+                </ul>
+                <p>Quando a lente é centrada, a espessura de borda será o valor da espessura máxima. Nesse caso, a
+                  lente teria 4,8mm nas bordas e 2mm de espessura de centro, por se tratar de uma lente divergente.
+                </p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal fade" id="modal-2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content no-print">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                    aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Visão simples descentrada</h4>
+              </div>
+              <div class="modal-body">
+                <p>
+                  CB=+5,00 <br>
+                  D=+2,00-1,00 eixo 90 <br>
+                  Dnp=30 <br>
+                  Ø= 65 <br>
+                  *Dados da armação <br>
+                  N=1,499
+                </p>
+                <ul class="cor01">
+                  <li>
+                    <p>Fator de conversão:</p>
+                    <img src="images/01/formula22.png" alt="" class="img-responsive">
+                  </li>
+                  <li>
+                    <p>
+                      Nova dipotria:<br>
+                      FC= 1,06. 2,00= +2,12<br>
+                      FC cil.= 1,06. 1,00= -1,06<br>
+                      D= +2,12 -1,06 eixo 20°
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      Transposição:<br>
+                      Transp.=+1,06 +1,06 eixo 110° 
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      Curvas internas:<br>
+                      CO=+2,12−+5,00= +2,12−5,00=−2,88<br>
+                      CO2=−2,88+−1,06= −2,88−1,06=−3,94
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      Diâmetro:<br>
+                      Dados da armação: P=20, DH=56, DM=55<br>
+                      DI= 20+56+55-60+2= 73mm
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      Espessura máxima:
+                      <img src="images/01/formula23.png" alt="" class="img-responsive">
+                      <br>
+                      <img src="images/01/formula24.png" alt="" class="img-responsive">
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      Descentração:
+                      <img src="images/01/formula25.png" alt="" class="img-responsive">
+                    </p>
+                    <p>DB=0,019x1,88x73x8x0,1= 2,08 mm<br>
+                      EO=1,6+2,08=3,68mm</p>
+                  </li>
+                </ul>
+
+                <p>Quando a lente é descentrada positiva, a <b>espessura oposta</b> (EO) será a espessura de borda
+                  nasal. Nesse caso, 3,68mm será a <b>espessura oposta</b> e <b>espessura mínima</b> (e) será o valor
+                  da espessura de borda temporal 1,6mm, enquanto a <b>espessura máxima</b> de 4,42mm encontra-se no
+                  centro da lente.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal fade" id="modal-3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content no-print">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                    aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Visão simples com curvatura de influência</h4>
+              </div>
+              <div class="modal-body">
+                <p>
+                  CB=+6,00<br>
+                  Dnp=30<br>
+                  Ø= 70<br>
+                  Índice da lente=1,586
+                </p>
+                <ul class="cor01">
+                  <li>
+                    <p>
+                      Fator de conversão:
+                      <img src="images/01/formula26.png" alt="" class="img-responsive">
+                      <br>
+                      <img src="images/01/formula27.png" alt="" class="img-responsive">
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      Nova dioptria:<br>
+                      FC= 0,91. 3,00=+2,73<br>
+                      FC cil.= 0,91. 1,25= -1,13<br>
+                      D= +2,73 -1,13 eixo 85°<br>
+                      Transp.=+1,60+1,13 eixo 175°
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      Curvas internas:<br>
+                      CO=+2,73−+6,00=+2,73−6,00=−3,27<br>
+                      CO2=−3,27+−1,13=−3,27−1,13=−4,40
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      Diâmetro:<br>
+                      Dados da armação: P=17, DH=55, DM=57<br>
+                      DI= 17+55+57-60+2= 71mm
+                    </p>
+                  </li>
+                  <li>
+                    <p>Espessura máxima:</p>
+                    <img src="images/01/formula28.png" alt="" class="img-responsive">
+                    <br>
+                    <img src="images/01/formula29.png" alt="" class="img-responsive">
+                  </li>
+                  <li>
+                    <p>
+                      Descentração:
+                    </p>
+                    <img src="images/01/formula30.png" alt="" class="img-responsive">
+                  </li>
+                  <p>DB=0,019x1,10x70x5,5x0,1= 0,80 mm<br>
+                    EO=1,4+0,80=2,20mm </p>
+
+                  <li>
+                    <p>Curva de influência:</p>
+                    <img src="images/01/formula31.png" alt="" class="img-responsive">
+                    <p>CO2 inf=−3,33+−1,13=−3,33−1,13=−4,46</p>
+                  </li>
+                </ul>
+                <p>No caso desta prescrição: <b>+3,00 -1,25 x 85º</b>, foram aplicados os cálculos necessários, e por
+                  ser uma dioptria de +3,00, calcula-se a curva de influência, em que as curvas internas serão
+                  <b>curva oposta 1 inf.</b> (CO) CO inf=−3,33 e <b>curva oposta 2 inf.</b> (CO2) CO2 inf =-4,46. A
+                  <b>espessura oposta</b> (EO) será a espessura de borda nasal 2,20mm e a <b>espessura mínima</b> (e)
+                  será o valor da espessura de borda temporal 1,4mm. 
+                </p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="acessivel print visible-print">
           <h4>Aplicação das fórmulas em lentes visão simples centrada </h4>
           <p>Exemplo 1: </p>
           <p>Neste exemplo a receita é para longe somente.</p>
-          <table>
+          <!-- <table>
             <tr>
               <th colspan="2"></th>
               <th>Esférico</th>
@@ -951,7 +1147,8 @@
               <td>0</td>
               <td></td>
             </tr>
-          </table>
+          </table> -->
+          <img src="images/01/receita04.png" alt="">
           <p>
             Curva-base de bloco semiacabado de +4,00 com diâmetro 70. <br>
             Dados da armação: p=18 H=54 MD=56 DP=60 <br>
@@ -1007,9 +1204,9 @@
           </p>
 
         </div>
-        <div class="acessivel">
+        <div class="acessivel print visible-print">
           <h4>Visão simples descentrada</h4>
-          <img src="images/01/receita04.png" alt="">
+          <img src="images/01/receita05.png" alt="">
 
           <p>Curva-base de bloco semiacabado de +5,00 com diâmetro 65. <br>
             Dados da armação: p=20H=56 MD=55 <br>
@@ -1087,9 +1284,9 @@
             da espessura de borda temporal 1,6mm, enquanto a <b>espessura máxima</b> de 4,42mm encontra-se no
             centro da lente.</p>
         </div>
-        <div class="acessivel">
+        <div class="acessivel print visible-print">
           <h4>Visão simples com curvatura de influência</h4>
-          <img src="images/01/receita05.png" alt="">
+          <img src="images/01/receita06.png" alt="">
           <p>
             Curva-base de bloco semiacabado de +6,00 com diâmetro 70.<br>
             Dados da armação: p=17 H=55 MD=57.<br>
@@ -1182,7 +1379,7 @@
     </section>
     <!-- - - - - - - - - - - - - - - - não alterar abaixo- - - - - - - - - - - - -->
     <footer class="text-center no-print">
-      <ul class="pagination">
+      <ul class="pagination" style="padding: 75px;">
 
       </ul>
     </footer>
@@ -1310,3 +1507,29 @@
   })
 
 </script>
+<script>
+  var scriptElem = document.createElement("script");
+  scriptElem.src = "https://plugin.handtalk.me/web/latest/handtalk.min.js",
+    scriptElem.charset = "UTF-8",
+    scriptElem.onload = function () {
+      window.ht = new HT({
+        token: "bf5b7efb148a829a126a0e0c9fd533bf",
+        videoEnabled: true,
+        ytEmbedReplace: true,
+        align: "top",
+        mobileConfig: {
+          align: "right",
+          actionsAlign: "top",
+          customButtonStyle: {
+            borderRadius: "6px",
+            size: "38px",
+            horizontalMargin: "13px",
+            bottomMargin: "140px",
+            rightMargin: "40px"
+          }
+        }
+      })
+    },
+    document.body.appendChild(scriptElem);
+</script>
+<script src="https://plugin.handtalk.me/web/latest/handtalk.min.js" charset="UTF-8"></script>

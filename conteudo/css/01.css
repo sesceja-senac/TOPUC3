@@ -2,10 +2,14 @@ body {
     background-image: url('../images/01/bg.png');
     background-attachment: fixed;
 }
+.moldura{
+    border:4px solid #50D7E2;
+}
 figcaption {
     text-align: center;
     margin-bottom: 30px;
 }
+
 .fig-flex {
     display: flex;
     justify-content: center;
@@ -172,7 +176,11 @@ h4 {
         max-width: 45%;
     }
 }
-
+@media (max-width:768px){
+    .fig-flex{
+        flex-wrap: wrap;
+    }
+}
 @media (max-width:650px){
     .modal-btn {
         max-width: 100%;
